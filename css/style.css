@@ -1,16 +1,106 @@
+/* =======fonts============ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* ========use font popins =============*/
+
 * {
     margin: 0;
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
 
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* ==============common css end============= */
 
-/* =================header part css Start============ */
-/* =================header part css End============ */
+/* =================banner part css Start============ */
+#banner {
+    background-color: #2D25A0;
+    padding: 59px 0 114px;
+}
+
+
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+    grid-column-gap: 100px;
+}
+
+.left-content {
+    width: 485px;
+    height: 230px;
+}
+
+.left-content h3 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffff;
+    margin-bottom: 12px;
+}
+
+
+
+.left-content a {
+    width: 168px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffff;
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    transition: all linear 0.3s;
+}
+
+.left-content a:hover {
+    background-color: coral;
+    color: black;
+    border-radius: 5px;
+}
+
+.left-content a:hover i {
+    color: #2D25A0;
+}
+
+.left-content i {
+    width: 24px;
+    height: 24px;
+    color: #ffff;
+    padding-left: 8px;
+    transition: all linear 0.3s;
+}
+
+/* banner left-content end */
+
+/* bg-image part start */
+.bg-image {
+    width: 555px;
+    height: 438px;
+}
+
+.bg-image img {
+    width: 100%;
+}
+
+/* =================banner part css End============ */
+
+
 
 /* =================header part css Start============ */
+
+
 /* =================header part css End============ */
 
 
