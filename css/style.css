@@ -215,7 +215,7 @@ body {
 #features {
     margin-top: 80px;
     margin-bottom: 80px;
-    position: relative;
+
 
 }
 
@@ -341,3 +341,136 @@ body {
 }
 
 /* =================footer part css End============ */
+
+
+
+/* =====///------media Query css Start--------///====== */
+
+/* ============mobile device========== */
+/*only 360px breakpoint */
+
+@media only screen and (max-width: 360px) {
+
+    /* banner part media */
+    #banner {
+        padding-top: 40px;
+        padding-left: 16px;
+        padding-bottom: 70px;
+    }
+
+    .banner {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .left-content {
+        width: 250px;
+    }
+
+    .left-content h3 {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .bg-image {
+        width: 329px;
+        height: 259px;
+        margin-top: 14px;
+    }
+
+
+    /* blog part media */
+    #blog {
+        padding-bottom: 34px;
+    }
+
+    .main-blog {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .blog_items {
+        margin-bottom: 24px;
+
+    }
+
+    /* highlights part media */
+    .hilights {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .hi-content {
+        width: 415px;
+        height: 167px;
+    }
+
+    .hi-content h3 {
+        font-size: 32px;
+        padding-left: 16px;
+    }
+
+    .hi-content a {
+        margin-left: 16px;
+    }
+
+    .hi-image {
+        width: 328px;
+        padding: 16px;
+    }
+
+    /* features part media css */
+    #features {
+        margin-top: 13px;
+        margin-bottom: 40px;
+    }
+
+    .title {
+        font-size: 35px;
+        margin-left: 16px;
+    }
+
+    #features .feature {
+
+        display: block;
+        border: none;
+
+    }
+
+    /* live stream part media css */
+    #live-stream {
+        padding-bottom: 45px;
+    }
+
+    .stream {
+        font-size: 32px;
+        padding: 16px;
+    }
+
+    .video {
+        display: block;
+    }
+
+    .live {
+        padding: 16px;
+    }
+
+    .live iframe {
+        width: 328px;
+    }
+
+
+    /* footer part media css */
+    #footer {
+        padding-top: 33px;
+        padding-bottom: 0px;
+    }
+
+    .footer-content {
+        width: 250px;
+        text-align: center;
+        margin-left: 54px;
+    }
+
+}
