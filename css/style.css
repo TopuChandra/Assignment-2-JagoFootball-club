@@ -208,103 +208,97 @@ body {
 /* =================HIghlights part css End============ */
 
 
+/* =================matchs part css Start============ */
+#features {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
 
-
-/* =================Games & Features part css Start============ */
-#games {
-    background-image: url(../images/bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 70px 0 85px;
-    margin-top: 100px;
 }
 
-.features {
-    margin: 0 auto;
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF7F50;
+    margin-bottom: 25px;
 }
 
-.features h2 {
-    font-size: 50px;
+#features .feature {
+    background-color: #EBE6DF;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    border: 10px solid #001386;
+}
+
+.feature-1 {
+    width: 380px;
+    padding: 30px;
+    border-right: 4px solid #FF7F50;
+
+}
+
+.feature :last-child {
+    border-right: none;
+}
+
+.top-part {
+    margin-bottom: 50px;
+}
+
+.top-part h3 {
+    font-size: 20px;
+    color: #001386;
+}
+
+.top-part span {
+    font-size: 14px;
+    color: grey;
+}
+
+.bottom-part {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bottom-part h5 {
+    display: inline;
+    font-size: 16px;
+    font-weight: 700;
+    color: sienna;
+    padding-left: 15px;
+}
+
+.bottom-part .spaceing {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 82px;
+    color: #001386;
+}
+
+/* =================matchs part css End============ */
+
+
+
+/* ================live video stream part css Start============ */
+#live-stream {
+    background-image: linear-gradient(45deg, #FF7F50, #001386);
+    padding-bottom: 85px;
+}
+
+.stream {
+    font-size: 40px;
     font-weight: 700;
     color: #fff;
-    text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
-.games {
+.video {
     display: flex;
     justify-content: space-between;
 }
 
-.feature-1 {
-    width: 375px;
-    height: 420px;
-    background: url(../images/Barca-2.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.feature-1 span {
-    display: none;
-    transition: all linear 0.3s;
-}
-
-.feature-1:hover span {
-    display: inline;
-}
-
-
-.feature-2 {
-    width: 375px;
-    height: 420px;
-    background: url(../images/Barca-1.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.feature-2 span {
-    display: none;
-    transition: all linear 0.3s;
-}
-
-.feature-2:hover span {
-    display: inline;
-}
-
-
-.feature-3 {
-    width: 375px;
-    height: 420px;
-    background: url(../images/1202635507.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.feature-3 span {
-    display: none;
-    transition: all linear 0.3s;
-}
-
-.feature-3:hover span {
-    display: inline;
-}
-
-/* =================Games & Features part css End============ */
-
-
-
-
-/* =================header part css Start============ */
-/* =================header part css End============ */
-
-
-
-/* =================header part css Start============ */
-/* =================header part css End============ */
+/* =================live video stream part css End============ */
 
 
 
