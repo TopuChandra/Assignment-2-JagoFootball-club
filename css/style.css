@@ -391,7 +391,10 @@ body {
 
     .blog_items {
         margin-bottom: 24px;
+    }
 
+    .blog_items h2 {
+        font-size: 20px;
     }
 
     /* highlights part media */
